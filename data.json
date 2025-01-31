@@ -60,10 +60,16 @@
     },
     "hoang_nam": {
         "name": "Nguyễn Đình Hoàng Nam",
-        "position": "Trực ban phó - An toàn & Chất lượng",
-        "specialty": "An toàn & Chất lượng, Hệ thống, Lịch mùa, Slot, PCCC & CNCH",
+        "position": "Trực Ban phó",
+        "specialty": "An toàn và chất lượng, Hệ thống, lịch mùa, slot, PCCC & CHCN",
+        "education": "Đại học kinh tế - Đà Nẵng",
+        "major": "Ngoại thương",
+        "languages": "Tiếng Anh",
+        "experience": "07 năm kinh nghiệm hàng không, 01 năm kinh nghiệm quản lý",
+        "strengths": "Lãnh đạo, đàm phán, công nghệ thông tin",
+        "historical_working": "Luân chuyển đội điện tử năm 2023, Nhân viên cốt lõi năm 2023, Nhân viên cốt lõi năm 2024, Nhân viên xuất sắc năm 2024",
         "contract": "Hợp đồng dài hạn"
-        },
+    },
      "hai_duong": {
         "name": "Hoàng Hải Dương",
         "position": "Trực ban phó - An ninh",
