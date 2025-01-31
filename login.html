@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập hệ thống sơ đồ tổ chức Phòng Điều Hành</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="anh/Helpy 1.png" alt="Trưởng phòng" class="image">
+        <h2>Sơ đồ tổ chức Phòng Điều Hành</h2>
+        <br>
+        <input type="text" id="username-input" placeholder="Nhập tài khoản..." />
+        <input type="password" id="password-input" placeholder="Mật khẩu..." />
+        <button id="login-button">Đăng Nhập</button>
+        <p id="login-error" class="error-message"></p>
+    </div>
+
+    <script>
+        document.getElementById("login-button").addEventListener("click", function () {
+            const username = document.getElementById("username-input").value.trim();
+            const password = document.getElementById("password-input").value.trim();
+
+            // Danh sách tài khoản hợp lệ
+            const validUsers = {
+                "pdh": "123456",
+                "nam": "123456",
+                "trison": "123456"
+            };
+
+            if (validUsers[username] && validUsers[username] === password) {
+                localStorage.setItem("isLoggedIn", "true");
+                localStorage.setItem("lastLoginTime", Date.now().toString());
+                localStorage.setItem("username", username);
+                window.location.href = "index.html"; // Chuyển hướng đến trang chính
+            } else {
+                document.getElementById("login-error").textContent = "Sai mật khẩu hoặc ID !";
+                document.getElementById("login-error").style.display = "block";
+            }
+        });
+
+        // Nếu đã đăng nhập và thời gian chưa hết hạn, chuyển ngay vào trang chính
+        const lastLoginTime = localStorage.getItem("lastLoginTime");
+        if (lastLoginTime && Date.now() - parseInt(lastLoginTime, 10) < 0.5 * 60 * 1000) {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

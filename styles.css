@@ -1,0 +1,477 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 10px; /* Thêm kích cỡ chữ (16px là kích thước mặc định) */
+  background-color: #e9ecef;
+  height: auto;
+}
+header {
+  text-align: center;
+  background: linear-gradient(135deg, #234093, #42C1C7); /* Gradient xanh */
+  color: white; /* Chữ trắng nổi bật */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px; /* Giới hạn chiều rộng */
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.org-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.level {
+  display: flex;
+  margin: 10px 0;
+}
+
+.level1 {
+  display: flex;
+  margin: 10px 0;
+}
+
+.line-container {
+  display: flex;
+}
+
+.line {
+  width: 2px;
+  height: 40px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+
+/* Cập nhật màu sắc cho các ô node */
+.node {
+  width: 120px;
+  height: auto;
+  min-height: 100px;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #234093; /* Màu nền mới */
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hiệu ứng hover với màu mới */
+.node:hover {
+  background-color: #42C1C7; /* Màu hover mới */
+}
+
+.tooltip {
+  position: absolute;
+  background: linear-gradient(135deg, #42C1C7, #234093); /* Màu xanh gradient */
+  color: #fff; /* Chữ trắng nổi bật */
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Hiệu ứng bóng */
+  font-size: 14px;
+  z-index: 1000;
+  border: none;
+  width: 250px;
+  display: none;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+/* Mũi tên chỉ vào phần tử */
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10px; /* Mũi tên nằm bên trái tooltip */
+  transform: translateY(-20%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent #f3f8f8 transparent transparent;
+}
+
+/* Khi tooltip xuất hiện */
+.tooltip.show {
+  display: block;
+  opacity: 1;
+}
+
+/* Làm chữ đậm và dễ nhìn hơn */
+.tooltip strong {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #234093; /* Vàng nổi bật */
+}
+
+.tooltip b {
+  color: #ffcf66; /* Màu vàng đậm */
+  font-weight: bold;
+}
+
+
+
+
+/* Button giữ nguyên */
+button {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Định dạng đường kẻ */
+.line-vertical {
+  width: 2px;
+  height: 40px;
+  background-color: #ccc;
+  position: relative;
+
+}
+.line-vertical1 {
+  width: 2px;
+  height: 310px;
+  background-color: #ccc;
+  position: relative;
+}
+
+.line-container-horizontal {
+  display: flex;
+  width: 1098px;
+  position: relative;
+}
+
+.line-horizontal {
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 auto;
+  position: relative;
+}
+
+.line-container-horizontal1 {
+  display: flex;
+  width: 169px;
+  position: relative;
+}
+
+.line-horizontal1 {
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 auto;
+  position: relative;
+}
+
+.line-container-horizontal2 {
+  display: flex;
+  width: 193px;
+  position: relative;
+}
+
+.line-horizontal2 {
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 auto;
+  position: relative;
+}
+.image {
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%; 
+  margin-bottom: 10px;
+}
+/*phần thay đổi*/
+/* Popup chính */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, #234093, #42C1C7); /* Gradient xanh */
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  z-index: 1000;
+  text-align: left;
+  animation: fadeIn 0.3s ease-in-out;
+}
+/* Ảnh nhân viên trong popup */
+.popup-image {
+  width: 80px; /* Kích thước ảnh */
+  height: 80px;
+  border-radius: 50%; /* Ảnh tròn */
+  margin: 10px auto; /* Canh giữa */
+  display: block;
+  border: 3px solid white; /* Viền trắng */
+}
+
+/* Hiệu ứng xuất hiện */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -55%);
+  }
+  to {
+    opacity: 2;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* Nội dung popup */
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Tiêu đề */
+.popup h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+/* Dòng thông tin */
+.popup p {
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Nhãn thông tin (bôi đậm) */
+.popup p strong {
+  color: #ffcf66;
+}
+
+/* Nút đóng popup */
+/* Nút đóng popup (góc phải) */
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px; /* Dời sang phải */
+  background: white;
+  color: #234093;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.close-popup:hover {
+  background: #ffcf66;
+  color: #234093;
+}
+/* Khi popup hiển thị */
+.popup-overlay.show,
+.popup.show {
+  display: block;
+}
+/* Popup nền tối (overlay) */
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Hiệu ứng mờ nền */
+  z-index: 999;
+  pointer-events: auto; /* Quan trọng: Cho phép nhận sự kiện click */
+}
+#popup-name {
+  text-align: center;
+  width: 100%; /* Đảm bảo chiếm toàn bộ chiều rộng */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .popup {
+    width: 90%;
+  }
+}
+/* Nền tối khi nhập mật khẩu */
+.password-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Làm mờ nền */
+    z-index: 999;
+}
+
+/* Cửa sổ nhập mật khẩu */
+.password-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, #234093, #42C1C7); /* Màu xanh gradient */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Tiêu đề */
+.password-popup h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Ô nhập mật khẩu */
+.password-popup input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Nút xác nhận */
+.password-popup button {
+    background: #ffcf66;
+    color: #234093;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.password-popup button:hover {
+    background: #fdb44b;
+}
+
+/* Hiển thị lỗi nếu nhập sai mật khẩu */
+.error-message {
+    color: #ff6666;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+/* Hiển thị popup */
+.password-popup.show,
+.password-overlay.show {
+    display: block;
+}
+/* Định dạng trang đăng nhập */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #234093, #42C1C7);
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.login-container h2 {
+  margin-bottom: 15px;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.login-container button {
+  background: #ffcf66;
+  color: #234093;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background: #fdb44b;
+}
+
+.error-message {
+  color: #ff6666;
+  font-size: 14px;
+  margin-top: 5px;
+  display: none;
+}
+/*nút logout*/
+.logout-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #fdb44b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logout-btn:hover {
+  background: #cc0000;
+}
+
+

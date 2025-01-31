@@ -1,0 +1,372 @@
+{
+    "_comment":"TRƯỞNG PHÒNG",
+    "tri_son": {
+        "name": "Lê Trí Sơn",
+        "position": "Trưởng phòng",
+        "specialty": "Tổ chức, An ninh, PCTT, Kế hoạch ngân sách, KPI, Đối ngoại",
+        "education": "Thạc sĩ Quản trị Kinh doanh",
+        "major": "Quản trị Kinh doanh",
+        "languages": "Tiếng Anh, Tiếng Việt",
+        "experience": "10 năm kinh nghiệm quản lý",
+        "strengths": "Lãnh đạo, Quản lý chiến lược, Đàm phán",
+        "historical_working": "Luân chuyển PKT, Luân chuyển P.KHKD",
+        "contract": "Hợp đồng dài hạn"
+    },
+
+"_comment":"PHÓ PHÒNG",
+    "pham_doan_ky": {
+      "name": "Phạm Doãn Kỳ",
+      "position": "Phó phòng Dịch vụ",
+      "specialty": "Quản lý các dịch vụ nhằm nâng cao trải nghiệm hành khách, Xây dựng & triển khai tiêu chuẩn dịch vụ, Hỗ trợ hành khách, Hỗ trợ dịch vụ",
+      "contract": "Hợp đồng dài hạn"
+    },
+    "duc_huy": {
+        "name": "Võ Quang Đức Huy",
+        "position": "Phó phòng khai thác",
+        "specialty": "Khai thác, Slot, Công nghệ, An toàn & Chất lượng, PCCC & CHCN, Phòng chống dịch bệnh",
+        "contract": "Hợp đồng dài hạn"
+      },
+    "tuan_huy": {
+        "name": "Nguyễn Tuấn Huy",
+        "position": "Phó phòng tài liệu, quy trình",
+        "specialty": "Tài liệu, Quy trình, Đào tạo nội bộ, Quản lý tài sản",
+        "contract": "Hợp đồng dài hạn"
+      },
+      "quynh_nhu": {
+        "name": "Đỗ Thị Quỳnh Như",
+        "position": "Phó phòng Chăm sóc khách hàng & Xúc tiến thị trường",
+        "specialty": "Chăm sóc khách hàng, Xúc tiến thị trường",
+        "contract": "Hợp đồng dài hạn"
+      },
+
+"_comment":"TRỰC BAN TRƯỞNG/TRỰC BAN PHÓ",
+    "minh_hung": {
+      "name": "Phạm Minh Hưng",
+      "position": "Trực ban trưởng - Hỗ trợ hành khách",
+      "specialty": "Hỗ trợ hành khách",
+      "contract": "Hợp đồng dài hạn"
+    },
+    "thai_hoa": {
+        "name": "Hà Phạm Thái Hòa",
+        "position": "Trực ban trưởng - Dịch vụ",
+        "specialty": "Quản lý các dịch vụ nhằm nâng cao trải nghiệm hành khách, Xây dựng & triển khai tiêu chuẩn dịch vụ, Hỗ trợ dịch vụ, KPI",
+        "contract": "Hợp đồng dài hạn"
+      },
+    "dac_bien": {
+    "name": "Hồ Đắc Biên",
+    "position": "Trực ban trưởng - Khai thác",
+    "specialty": "Khai thác, Công nghệ, Phòng chống dịch bệnh",
+    "contract": "Hợp đồng dài hạn"
+    },
+    "hoang_nam": {
+        "name": "Nguyễn Đình Hoàng Nam",
+        "position": "Trực ban phó - An toàn & Chất lượng",
+        "specialty": "An toàn & Chất lượng, Hệ thống, Lịch mùa, Slot, PCCC & CNCH",
+        "contract": "Hợp đồng dài hạn"
+        },
+     "hai_duong": {
+        "name": "Hoàng Hải Dương",
+        "position": "Trực ban phó - An ninh",
+        "specialty": "An ninh, Kế hoạch ngân sách",
+        "contract": "Hợp đồng dài hạn"
+        },
+     "thanh_ai": {
+        "name": "Đinh Thành Ái",
+        "position": "Chuyên viên chính - Đối ngoại",
+        "specialty": "Đối ngoại, PCTT",
+        "contract": "Hợp đồng dài hạn"
+        },
+
+"_comment":"TRỰC ĐIỀU HÀNH",
+    "vuong_quan": {
+        "name": "Ngô Vương Quân",
+        "position": "Chuyên viên điều hành",
+        "specialty": "Trực điều hành, IETLS 7.0",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "ngoc_phap": {
+        "name": "Hồ Ngọc Pháp",
+        "position": "Chuyên viên điều hành",
+        "specialty": "Trực điều hành",
+        "contract": "Hợp đồng dài hạn"
+        },
+     "quang_minh": {
+        "name": "Trần Quang Minh",
+        "position": "Chuyên viên điều hành",
+        "specialty": "Trực điều hành, Tốt nghiệp ĐH luật",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "phuong_khanh": {
+        "name": "Nguyễn Ngọc Phương Khanh",
+        "position": "Chuyên viên điều hành",
+        "specialty": "Trực điều hành",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "phuong_chau": {
+        "name": "Võ Nguyễn Phương Châu",
+        "position": "Chuyên viên điều hành",
+        "specialty": "Trực điều hành, Tốt nghiệp ĐH Hàng không",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "thanh_chuong": {
+        "name": "Trần Hoàng Thanh Chương",
+        "position": "Chuyên viên điều hành",
+        "specialty": "Trực điều hành",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "minh_tuan": {
+        "name": "Lương Minh Tuấn",
+        "position": "Chuyên viên điều hành",
+        "specialty": "Trực điều hành, Am hiểu hệ IT",
+        "contract": "Hợp đồng dài hạn"
+        },
+
+
+"_comment":"GIÁM SÁT",
+    "thuy_linh": {
+        "name": "Trương Thị Thùy Linh",
+        "position": "Chuyên viên giám sát",
+        "specialty": "Giám sát hoạt động khai thác",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "bich_thuy": {
+        "name": "Nguyễn Thị Bích Thủy",
+        "position": "Chuyên viên giám sát",
+        "specialty": "Giám sát hoạt động khai thác",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "dai_trang": {
+        "name": "Nguyễn Thị Đài Trang",
+        "position": "Chuyên viên giám sát",
+        "specialty": "Giám sát hoạt động khai thác",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "nhu_hoang": {
+        "name": "Nguyễn Như Hoàng",
+        "position": "Chuyên viên giám sát",
+        "specialty": "Giám sát hoạt động khai thác",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "kim_thuy": {
+        "name": "Phan Thị Kim Thúy",
+        "position": "Chuyên viên giám sát",
+        "specialty": "Giám sát hoạt động khai thác",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "huyen_mai": {
+        "name": "Trần Thị Huyền Mai",
+        "position": "Chuyên viên kiểm soát chất lượng",
+        "specialty": "Kiểm soát chất lượng các nhà cung cấp bên ngoài",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "anh_tuan": {
+        "name": "Đặng Anh Tuấn",
+        "position": "Chuyên viên giám sát",
+        "specialty": "Giám sát hoạt động khai thác",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "tran_nguyen": {
+        "name": "Đặng Trần Nguyên",
+        "position": "Chuyên viên giám sát",
+        "specialty": "Giám sát hoạt động khai thác",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "van_trang": {
+        "name": "Thái Vân Trang",
+        "position": "Chuyên viên giám sát",
+        "specialty": "Giám sát hoạt động khai thác",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "hai_son": {
+        "name": "Nguyễn Hải Sơn",
+        "position": "Chuyên viên giám sát",
+        "specialty": "Giám sát hoạt động khai thác",
+        "contract": "Hợp đồng dài hạn"
+        },
+    
+"_comment":"NHÂN VIÊN DỊCH VỤ HÀNH KHÁCH",
+    "huong_2": {
+        "name": "Nguyễn Thị Hương",
+        "position": "Nhân viên Dịch vụ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Hàn",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "ngoc_quyen": {
+        "name": "Nguyễn Thị Ngọc Quyên",
+        "position": "Nhân viên Dịch vụ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Hàn",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "ngoc_phong": {
+        "name": "Hồ Nguyễn Ngọc Phong",
+        "position": "Nhân viên Dịch vụ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Hàn",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "khanh_linh": {
+        "name": "Hoàng Vũ Khánh Linh",
+        "position": "Nhân viên Dịch vụ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Hàn",
+        "contract": "Hợp đồng tạm thời"
+        },    
+    "trieu": {
+        "name": "Y Triều Niê Hra",
+        "position": "Nhân viên Dịch vụ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng tạm thời"
+        },
+        
+"_comment":"NHÂN VIÊN HỖ TRỢ HÀNH KHÁCH",
+    "my_le": {
+        "name": "Phan Thị Mỹ Lệ",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "quynh_huong": {
+        "name": "Nguyễn Phước Quỳnh Hương",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "kim_ngan": {
+        "name": "Hoàng Thị Kim Ngân",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Trung",
+        "contract": "Hợp đồng dài hạn"
+        },
+
+    "hong_quan": {
+        "name": "Vũ Hồng Quân",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "kim_dung": {
+        "name": "Hồ Thị Kim Dung",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng dài hạn"
+        },
+    "hong_luu": {
+        "name": "Ngô Hồng Lựu",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng dài hạn"
+        },
+
+    "nhu_ngoc": {
+        "name": "Trần Như Ngọc",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Trung",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "le_chi": {
+        "name": "Hoàng Lệ Chi",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "tuong_vinh": {
+        "name": "Lê Công Tường Vĩnh",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Trung",
+        "contract": "Hợp đồng tạm thời"
+        },
+
+    "xuan_ni": {
+        "name": "Nguyễn Thị Xuân Ni",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Hàn",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "tinh_nghi": {
+        "name": "Tân Tịnh Nghi",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Trung",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "tien_doan": {
+        "name": "Đỗ Tiến Đoàn",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Trung",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "phuong_linh": {
+        "name": "Vương Phương Linh",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "ngan_ha": {
+        "name": "Đoàn Thị Ngân Hà",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Trung",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "thuy_vy": {
+        "name": "Trần Thúy Vỹ",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Trung",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "minh_phương": {
+        "name": "Trần Minh Phương",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Hàn",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "nhu_tuyet": {
+        "name": "Đỗ Thị Như Tuyết",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "quoc_phuong": {
+        "name": "Võ Quốc Phương",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "tu_uyen": {
+        "name": "Văn Phạm Tú Uyên",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Trung",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "mini": {
+        "name": "Lê Thị Mini",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng tạm thời"
+        }, 
+    "thao_nguyen": {
+        "name": "Nguyễn Trần Thảo Nguyên",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh",
+        "contract": "Hợp đồng tạm thời"
+        },
+    "minh_phuong": {
+        "name": "Trần Minh Phương",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Hàn",
+        "contract": "Hợp đồng tạm thời"
+        },
+
+
+    "pham_doan_ky": {
+        "name": "Phạm Doãn Kỳ",
+        "position": "Phó phòng Dịch vụ",
+        "education": "Cử nhân Kinh tế",
+        "major": "Kinh tế học",
+        "specialty": "Quản lý các dịch vụ, Tiêu chuẩn dịch vụ, Hỗ trợ khách hàng",
+        "languages": "Tiếng Anh, Tiếng Pháp",
+        "experience": "8 năm kinh nghiệm",
+        "strengths": "Quản lý nhóm, Dịch vụ khách hàng",
+        "Record": "Độc thân"
+    }
+}
+
+       
+
+  

@@ -1,0 +1,10 @@
+{
+    "name": "my-static-website",
+    "version": "1.0.0",
+    "description": "Static website hosted on Render",
+    "scripts": {
+      "start": "npx serve ."
+    },
+    "dependencies": {}
+  }
+  
