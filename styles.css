@@ -473,5 +473,59 @@ button:hover {
 .logout-btn:hover {
   background: #cc0000;
 }
+/* Định dạng chung cho màn hình nhỏ */
+@media screen and (max-width: 768px) {
+  body {
+      padding: 10px;
+  }
+
+  header {
+      position: static;
+      text-align: center;
+      left: auto !important;
+  }
+
+  .level, .level1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+  }
+
+  .node {
+      position: relative !important;
+      left: auto !important;
+      margin: 10px 5px;
+      text-align: center;
+  }
+
+  /* Điều chỉnh kích thước hình ảnh để phù hợp với màn hình nhỏ */
+  .node img {
+      max-width: 80px;
+      height: auto;
+  }
+
+  /* Hiển thị dạng cây trên điện thoại */
+  .line-container,
+  .line-vertical,
+  .line-horizontal,
+  .line-container-horizontal,
+  .line-container-horizontal1,
+  .line-container-horizontal2 {
+      display: none;
+  }
+
+  /* Điều chỉnh popup trên điện thoại */
+  .popup {
+      width: 90%;
+      max-width: 350px;
+  }
+
+  .popup img {
+      width: 70%;
+      height: auto;
+  }
+}
 
 
