@@ -475,50 +475,138 @@ button:hover {
 }
 /* Định dạng chung cho màn hình nhỏ */
 /* Định dạng chung cho màn hình nhỏ */
+/* Định dạng chung cho màn hình nhỏ */
 @media screen and (max-width: 768px) {
   body {
-      padding: 10px;
+      padding: 5px;
       overflow-x: auto; /* Cho phép cuộn ngang nếu cần */
+      display: flex;
+      justify-content: center;
   }
 
   header {
       text-align: center;
-      font-size: 16px; /* Giảm kích thước tiêu đề */
+      font-size: 14px; /* Giảm kích thước tiêu đề */
   }
 
-  /* Đảm bảo bố cục giống trên web */
+  /* Giữ nguyên bố cục ngang, giảm kích thước */
   .level, .level1 {
       display: flex;
-      justify-content: space-around; /* Giữ khoảng cách đều giữa các phần tử */
+      justify-content: space-around; /* Dàn trải đều các phần tử */
+      align-items: flex-start; /* Canh trên */
+      gap: 10px; /* Khoảng cách giữa các phần tử */
       flex-wrap: nowrap; /* Không cho phép xuống hàng */
-      align-items: center;
   }
 
   .node {
       text-align: center;
-      max-width: 100px; /* Giới hạn chiều rộng mỗi phần tử */
-      margin: 0 auto;
+      max-width: 80px; /* Giới hạn chiều rộng mỗi ô */
+      margin: 0;
   }
 
-  /* Giảm kích thước ảnh để hiển thị đầy đủ trên màn hình nhỏ */
+  /* Giảm kích thước ảnh và chữ */
   .node img {
       max-width: 60px; /* Giảm kích thước ảnh */
       height: auto;
   }
 
+  .node {
+      font-size: 10px; /* Giảm cỡ chữ */
+      padding: 2px;
+  }
+
   /* Điều chỉnh các đường nối */
+  .line-container {
+      display: flex;
+      justify-content: center; /* Đảm bảo đường nối nằm chính giữa */
+  }
+
   .line-vertical {
-      height: 20px; /* Đường thẳng đứng nhỏ hơn */
+      height: 20px; /* Đường nối dọc */
+      width: 2px;
+      background-color: #000;
+      margin: 0 auto;
   }
 
   .line-horizontal {
-      width: 50px; /* Đường ngang ngắn hơn */
+      height: 2px; /* Đường nối ngang */
+      background-color: #000;
+      width: 100%;
   }
 
-  .line-container-horizontal, 
-  .line-container-horizontal1, 
+  .line-container-horizontal,
+  .line-container-horizontal1,
   .line-container-horizontal2 {
-      display: flex; /* Sử dụng flex để căn chỉnh các đường nối */
+      display: flex;
       justify-content: center;
+      align-items: center;
+  }
+
+  /* Popup hiển thị tốt trên di động */
+  .popup {
+      width: 90%;
+      max-width: 300px;
+  }
+
+  .popup img {
+      width: 60%;
+      height: auto;
+  }
+}
+
+/* background của màn hình login*/
+/* Nền động */
+.animated-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #87CEFA, #FFFFFF); /* Bầu trời xanh nhạt */
+  overflow: hidden;
+  z-index: -1; /* Đặt phía sau login-container */
+}
+
+/* Chú hải âu hoạt hình */
+/* Nền động */
+.animated-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #87CEFA, #FFFFFF); /* Bầu trời xanh nhạt */
+  overflow: hidden;
+  z-index: -1; /* Đặt phía sau login-container */
+}
+
+/* Chú hải âu hoạt hình */
+.seagull {
+  position: absolute;
+  bottom: 20%; /* Chiều cao ban đầu (gần giữa khung hình) */
+  left: -10%; /* Bắt đầu ngoài lề trái khung hình */
+  width: 100px; /* Kích thước chú hải âu */
+  animation: moveSeagull 10s linear infinite; /* Di chuyển toàn bộ khung hình */
+}
+
+/* Hiệu ứng di chuyển */
+@keyframes moveSeagull {
+  0% {
+      left: -10%; /* Bắt đầu ngoài khung nhìn ở lề trái */
+      transform: translateY(0) rotate(0deg);
+  }
+  25% {
+      transform: translateY(-10px) rotate(0%); /* Nhấp nhô nhẹ */
+  }
+  50% {
+      left: 50%; /* Ở giữa màn hình */
+      transform: translateY(5px) rotate(0deg); /* Lắc nhẹ */
+  }
+  75% {
+      transform: translateY(-10px) rotate(0deg); /* Nhấp nhô nhẹ */
+  }
+  100% {
+      left: 110%; /* Ra khỏi khung hình ở lề phải */
+      transform: translateY(0) rotate(0deg);
   }
 }
