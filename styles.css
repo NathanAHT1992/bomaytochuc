@@ -474,58 +474,51 @@ button:hover {
   background: #cc0000;
 }
 /* Định dạng chung cho màn hình nhỏ */
+/* Định dạng chung cho màn hình nhỏ */
 @media screen and (max-width: 768px) {
   body {
       padding: 10px;
+      overflow-x: auto; /* Cho phép cuộn ngang nếu cần */
   }
 
   header {
-      position: static;
       text-align: center;
-      left: auto !important;
+      font-size: 16px; /* Giảm kích thước tiêu đề */
   }
 
+  /* Đảm bảo bố cục giống trên web */
   .level, .level1 {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around; /* Giữ khoảng cách đều giữa các phần tử */
+      flex-wrap: nowrap; /* Không cho phép xuống hàng */
       align-items: center;
-      gap: 15px;
   }
 
   .node {
-      position: relative !important;
-      left: auto !important;
-      margin: 10px 5px;
       text-align: center;
+      max-width: 100px; /* Giới hạn chiều rộng mỗi phần tử */
+      margin: 0 auto;
   }
 
-  /* Điều chỉnh kích thước hình ảnh để phù hợp với màn hình nhỏ */
+  /* Giảm kích thước ảnh để hiển thị đầy đủ trên màn hình nhỏ */
   .node img {
-      max-width: 80px;
+      max-width: 60px; /* Giảm kích thước ảnh */
       height: auto;
   }
 
-  /* Hiển thị dạng cây trên điện thoại */
-  .line-container,
-  .line-vertical,
-  .line-horizontal,
-  .line-container-horizontal,
-  .line-container-horizontal1,
+  /* Điều chỉnh các đường nối */
+  .line-vertical {
+      height: 20px; /* Đường thẳng đứng nhỏ hơn */
+  }
+
+  .line-horizontal {
+      width: 50px; /* Đường ngang ngắn hơn */
+  }
+
+  .line-container-horizontal, 
+  .line-container-horizontal1, 
   .line-container-horizontal2 {
-      display: none;
-  }
-
-  /* Điều chỉnh popup trên điện thoại */
-  .popup {
-      width: 90%;
-      max-width: 350px;
-  }
-
-  .popup img {
-      width: 70%;
-      height: auto;
+      display: flex; /* Sử dụng flex để căn chỉnh các đường nối */
+      justify-content: center;
   }
 }
-
-
