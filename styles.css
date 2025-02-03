@@ -476,7 +476,7 @@ button:hover {
 /* Định dạng chung cho màn hình nhỏ */
 /* Chú hải âu hoạt hình */
 /* Nền động */
-.animated-background {
+.color-background {
   position: fixed;
   top: 0;
   left: 0;
@@ -485,35 +485,4 @@ button:hover {
   background: linear-gradient(135deg, #87CEFA, #FFFFFF); /* Bầu trời xanh nhạt */
   overflow: hidden;
   z-index: -1; /* Đặt phía sau login-container */
-}
-
-/* Chú hải âu hoạt hình */
-.seagull {
-  position: absolute;
-  bottom: 20%; /* Chiều cao ban đầu (gần giữa khung hình) */
-  left: -10%; /* Bắt đầu ngoài lề trái khung hình */
-  width: 100px; /* Kích thước chú hải âu */
-  animation: moveSeagull 10s linear infinite; /* Di chuyển toàn bộ khung hình */
-}
-
-/* Hiệu ứng di chuyển */
-@keyframes moveSeagull {
-  0% {
-      left: -10%; /* Bắt đầu ngoài khung nhìn ở lề trái */
-      transform: translateY(0) rotate(0deg);
-  }
-  25% {
-      transform: translateY(-10px) rotate(0%); /* Nhấp nhô nhẹ */
-  }
-  50% {
-      left: 50%; /* Ở giữa màn hình */
-      transform: translateY(5px) rotate(0deg); /* Lắc nhẹ */
-  }
-  75% {
-      transform: translateY(-10px) rotate(0deg); /* Nhấp nhô nhẹ */
-  }
-  100% {
-      left: 110%; /* Ra khỏi khung hình ở lề phải */
-      transform: translateY(0) rotate(0deg);
-  }
 }
