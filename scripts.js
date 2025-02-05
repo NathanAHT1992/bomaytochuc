@@ -115,8 +115,12 @@ document.addEventListener("DOMContentLoaded", function () {
                             formatList("popup-major", info.major);
                             formatList("popup-languages", info.languages);
                             formatList("popup-experience", info.experience);
-                            formatList("popup-strengths", info.strengths);
-                            formatList("popup-historical_working", info.historical_working);
+                            formatList("popup-certificate", info.certificate);
+                            formatList("popup-skill", info.skill);
+                            formatList("popup-softskill", info.softskill);
+                            formatList("popup-trainingcourse", info.trainingcourse);
+                            formatList("popup-achievement", info.achievement);
+                            formatList("popup-record", info.record);
   
                             showPopup();
                         }

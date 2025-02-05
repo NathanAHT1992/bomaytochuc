@@ -216,15 +216,43 @@ button:hover {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
-  width: 350px;
+  width: 90%;
+  max-width: 400px; /* Giới hạn chiều rộng */
+  max-height: 80vh; /* Giới hạn chiều cao */
   z-index: 1000;
   text-align: left;
   animation: fadeIn 0.3s ease-in-out;
+  overflow-y: auto;
 }
+/* Định dạng thanh cuộn */
+.popup::-webkit-scrollbar {
+  width: 8px; /* Độ rộng thanh cuộn */
+}
+
+/* Màu nền thanh cuộn */
+.popup::-webkit-scrollbar-track {
+  background: #42C1C7;
+  border-radius: 10px;
+}
+
+/* Màu phần kéo */
+.popup::-webkit-scrollbar-thumb {
+  background: none;
+  border-radius: 10px;
+  border: 2px solid #fbfbfb;
+  height: 20%; /* Giảm chiều dài phần kéo */
+}
+
+/* Khi di chuột vào thanh cuộn */
+.popup::-webkit-scrollbar-thumb:hover {
+  background: #234093;
+}
+
+
 /* Ảnh nhân viên trong popup */
 .popup-image {
-  width: 80px; /* Kích thước ảnh */
-  height: 80px;
+  width: 100px; /* Kích thước ảnh */
+  height: 100px;
   border-radius: 50%; /* Ảnh tròn */
   margin: 10px auto; /* Canh giữa */
   display: block;
@@ -249,6 +277,19 @@ button:hover {
   flex-direction: column;
   gap: 10px;
   padding: 10px;
+  
+}
+.popup-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.popup-content::-webkit-scrollbar-track {
+  background-color: #234093;
 }
 
 /* Tiêu đề */
@@ -462,7 +503,7 @@ button:hover {
   color: white;
   border: none;
   padding: 10px 15px;
-  font-size: 14px;
+  ont-size: 14px;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
