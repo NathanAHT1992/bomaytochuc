@@ -42,17 +42,17 @@ header h1 {
   margin: 10px 0;
 }
 
+.line {
+  width: 5px;
+  height: 4px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  position: relative;
+}
 .line-container {
   display: flex;
+  position:relative;
 }
-
-.line {
-  width: 2px;
-  height: 40px;
-  background-color: #ccc;
-  margin: 0 auto;
-}
-
 /* Cập nhật màu sắc cho các ô node */
 .node {
   width: 120px;
@@ -146,30 +146,28 @@ button:hover {
   width: 2px;
   height: 40px;
   background-color: #ccc;
-  position: relative;
+  position: static;
 
 }
 .line-vertical1 {
   width: 2px;
   height: 310px;
   background-color: #ccc;
-  position: relative;
-}
-
-.line-container-horizontal {
-  display: flex;
-  width: 1098px;
-  position: relative;
+  position: static;
 }
 
 .line-horizontal {
   width: 100%;
   height: 2px;
   background-color: #ccc;
-  margin: 0 auto;
+  margin: auto;
   position: relative;
 }
-
+.line-container-horizontal {
+  display: flex;
+  width: 1098px;
+  position: static;
+}
 .line-container-horizontal1 {
   display: flex;
   width: 169px;
@@ -184,17 +182,16 @@ button:hover {
   position: relative;
 }
 
-.line-container-horizontal2 {
-  display: flex;
-  width: 193px;
-  position: relative;
-}
-
 .line-horizontal2 {
   width: 100%;
   height: 2px;
   background-color: #ccc;
   margin: 0 auto;
+  position: relative;
+}
+.line-container-horizontal2 {
+  display: flex;
+  width: 193px;
   position: relative;
 }
 .image {
@@ -319,7 +316,7 @@ button:hover {
 /* Nút đóng popup */
 /* Nút đóng popup (góc phải) */
 .close-popup {
-  position: absolute;
+  position: relative;
   top: 10px;
   right: 10px; /* Dời sang phải */
   background: white;
@@ -526,4 +523,15 @@ button:hover {
   background: linear-gradient(135deg, #87CEFA, #FFFFFF); /* Bầu trời xanh nhạt */
   overflow: hidden;
   z-index: -1; /* Đặt phía sau login-container */
+}
+@media only screen and (max-width: 850px) {
+  .node {
+    min-width: 120px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .node {
+    width: 120px;
+  }
 }
