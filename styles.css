@@ -226,7 +226,7 @@ button:hover {
 }
 /* Định dạng thanh cuộn */
 .popup::-webkit-scrollbar {
-  width: 15px; /* Độ rộng thanh cuộn */
+  width: 25px; /* Độ rộng thanh cuộn */
 }
 
 /* Màu nền thanh cuộn */
