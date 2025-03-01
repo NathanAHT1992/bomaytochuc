@@ -11,9 +11,12 @@ header {
   background: linear-gradient(135deg, #234093, #42C1C7); /* Gradient xanh */
   color: white; /* Chữ trắng nổi bật */
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   max-width: 800px; /* Giới hạn chiều rộng */
+  position: relative;
+  display: flex;
+
 }
 
 header h1 {
@@ -26,7 +29,7 @@ header h1 {
 }
 
 .org-chart {
-  display: flex;
+position: relative;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
@@ -493,14 +496,14 @@ button:hover {
 }
 /*nút logout*/
 .logout-btn {
-  position: fixed;
+  position: relative;
   top: 10px;
-  right: 10px;
-  background: #fdb44b;
+  left: 1500px;
+  background: #fd604b;
   color: white;
   border: none;
-  padding: 10px 15px;
-  ont-size: 14px;
+  padding: 20px 20px;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;

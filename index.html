@@ -20,6 +20,7 @@
 <!-- Trưởng phòng -->
  <br>
  <br>
+ <br>
 <div>
 <div class="level">
   <div class="node" data-id="tri_son" style="position: relative; left: 660px;">
@@ -178,8 +179,8 @@
       <img src="anh/hongquan.png"  class="image">  
       Vũ Hồng Quân</div>
       <div class="node" data-id="kim_thuy" style="left: 80px;">
-      <img src="anh/kimthuy.png" class="image">  
-      Phan Thị Kim Thúy</div>
+      <img src="anh/thuylinh.png" class="image">  
+      Trương Thị Thùy Linh</div>
       <div class="node" data-id="phuong_khanh" style="left: 205px;">
       <img src="anh/phuongkhanh.png"  class="image">
       Nguyễn Ngọc Phương Khanh</div>
@@ -201,19 +202,19 @@
       <div class="node" data-id="phuong_chau" style="left: 205px;">
       <img src="anh/phuongchau.png" alt="Trưởng phòng" class="image">
       Võ Nguyên Phương Châu</div>
-      <div class="node" data-id="thuy_linh" style="left: 240px;">
-      <img src="anh/thuylinh.png" alt="Trưởng phòng" class="image">
-      Trương Thị Thùy Linh</div>
+      <div class="node" data-id="kim_thuy" style="left: 240px;">
+      <img src="anh/kimthuy.png" alt="Trưởng phòng" class="image">
+      Phan Thị Kim Thúy</div>
     </div>
 
           <!-- Chuyên viên -->
     <div class="level">
-      <div class="node" data-id="nhu_ngoc" style="left: 80px;">
-      <img src="anh/ngoc.png" alt="Trưởng phòng" class="image">
-      Trần Như Ngọc</div>
       <div class="node" data-id="hong_luu" style="left: 80px;">
       <img src="anh/hongluu.png" alt="Trưởng phòng" class="image">
       Ngô Hồng Lựu</div>
+      <div class="node" data-id="ly_na" style="left: 80px;">
+      <img src="anh/ly_na.png" class="image">
+      Nguyễn Thị Ly Na</div>
       <div class="node" data-id="tran_nguyen" style="left: 205px;">
       <img src="anh/trannguyen.png" alt="Trưởng phòng" class="image">
       Đặng Trần Nguyên</div>
@@ -227,9 +228,9 @@
         <div class="node" data-id="khanh_linh" style="left: 80px;">
         <img src="anh/khanhlinh.png" alt="Trưởng phòng" class="image">
         Hoàng Vũ Khánh Linh</div>
-        <div class="node" data-id="nhu_ngoc" style="left: 80px;">
-        <img src="anh/ngoc.png" alt="Trưởng phòng" class="image">
-        Trần Như Ngọc</div>
+          <div class="node" data-id="nhu_ngoc" style="left: 80px;">
+          <img src="anh/ngoc.png" alt="Trưởng phòng" class="image">
+          Trần Như Ngọc</div>
         <div class="node" data-id="van_trang" style="left: 410px;">
         <img src="anh/vantrang.png" alt="Trưởng phòng" class="image">
         Thái Vân Trang</div>
@@ -246,7 +247,7 @@
           <!-- Chuyên viên -->
       <div class="level">
           <div class="node" data-id="tuong_vinh" style="left: 250px;">
-          <img src="anh/tuongvinh.png" alt="Trưởng phòng" class="image">
+          <img src="anh/tuong_vinh.jpg" alt="Trưởng phòng" class="image">
           Lê Công Tường Vĩnh</div>
       </div>
           <!-- Chuyên viên -->
@@ -257,9 +258,9 @@
       </div>
           <!-- Chuyên viên -->
       <div class="level">
-            <div class="node" data-id="tinh_nghi" style="left: 250px;">
-              <img src="anh/nghi.png" alt="Trưởng phòng" class="image">
-              Tân Tịnh Nghi</div>
+            <div class="node" data-id="thu_ngan" style="left: 250px;">
+              <img src="anh/thu_ngan.png" class="image">
+              Nguyễn Thị Thu Ngân</div>
       </div>
           <!-- Chuyên viên -->
       <div class="level">
@@ -334,16 +335,15 @@
   <button class="close-popup">&times;</button>
   <img id="popup-image" class="popup-image" src="" alt="Ảnh nhân viên"> <!-- Ảnh nhân viên -->
   <h2 id="popup-name"></h2>
-  <p><strong>Trình độ học vấn:</strong> <span id="popup-education"></span></p>
-  <p><strong>Chuyên ngành tốt nghiệp:</strong> <span id="popup-major"></span></p>
+  <p><strong>Năm sinh: </strong> <span id="popup-dateofbirth"></span></p>
+  <p><strong>Chuyên môn chính: </strong> <span id="popup-specialty"></span></p>
+  <p><strong>Chuyên môn bổ trợ: </strong> <span id="popup-specialtyp"></span></p>
   <p><strong>Ngôn ngữ sử dụng:</strong> <span id="popup-languages"></span></p>
-  <p><strong>Kinh nghiệm làm việc:</strong> <span id="popup-experience"></span></p>
-  <p><strong>Chứng chỉ chuyên môn:</strong> <span id="popup-certificate"></span></p>
-  <p><strong>Kỹ năng chuyên môn:</strong> <span id="popup-skill"></span></p>
-  <p><strong>Kỹ năng mềm:</strong> <span id="popup-softskill"></span></p>
-  <p><strong>Các khóa đào tạo đã tham gia:</strong> <span id="popup-trainingcourse"></span></p>
-  <p><strong>Thành tích nổi bật:</strong> <span id="popup-achievement"></span></p>
+  <p><strong>Tốt nghiệp trường:</strong> <span id="popup-education"></span></p>
+  <p><strong>Chứng chỉ chuyên môn:</strong> <span id="popup-major"></span></p>
+  <p><strong>Thành tích:</strong> <span id="popup-achievement"></span></p>
   <p><strong>Hồ sơ công việc:</strong> <span id="popup-record"></span></p>
+  <p><strong>Loại hợp đồng:</strong> <span id="popup-contract"></span></p>
 </div>
 
 

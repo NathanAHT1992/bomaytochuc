@@ -16,12 +16,17 @@ document.addEventListener("DOMContentLoaded", function () {
                             .split(",")
                             .map(item => `<li>${item.trim()}</li>`)
                             .join("");
-  
+                        const specialtyListp = info.specialtyListp
+                            .split(",")
+                            .map(item => `<li>${item.trim()}</li>`)
+                            .join("");
                         tooltip.innerHTML = `
                             <strong>${info.name}</strong><br><br>
                             <b>Chức vụ:</b> ${info.position}<br>
-                            <b>Chuyên môn:</b>
+                            <b>Chuyên môn chính:</b>
                             <ul>${specialtyList}</ul>
+                            <b>Chuyên môn bổ trợ:</b>
+                            <ul>${specialtyListp}</ul>
                             <b>Hợp đồng:</b> ${info.contract}
                         `;
                         tooltip.classList.add("show");
@@ -110,17 +115,17 @@ document.addEventListener("DOMContentLoaded", function () {
                             popupImage.src = imgElement.src;
                             popupImage.alt = info.name;
                             document.getElementById("popup-name").textContent = info.name;
-  
+                            
+                            formatList("popup-dateofbirth", info.dateofbirth);
+                            formatList("popup-education", info.education);
+                            formatList("popup-specialty", info.specialty);
+                            formatList("popup-specialtyp", info.specialtyListp);
                             formatList("popup-education", info.education);
                             formatList("popup-major", info.major);
                             formatList("popup-languages", info.languages);
-                            formatList("popup-experience", info.experience);
-                            formatList("popup-certificate", info.certificate);
-                            formatList("popup-skill", info.skill);
-                            formatList("popup-softskill", info.softskill);
-                            formatList("popup-trainingcourse", info.trainingcourse);
                             formatList("popup-achievement", info.achievement);
                             formatList("popup-record", info.record);
+                            formatList("popup-contract", info.contract);
   
                             showPopup();
                         }
