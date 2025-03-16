@@ -119,7 +119,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             formatList("popup-dateofbirth", info.dateofbirth);
                             formatList("popup-education", info.education);
                             formatList("popup-specialty", info.specialty);
-                            formatList("popup-specialtyp", info.specialtyListp);
+                            formatList("popup-specialtyListp", info.specialtyListp);
+                            formatList("popup-skill", info.skill);
                             formatList("popup-education", info.education);
                             formatList("popup-major", info.major);
                             formatList("popup-languages", info.languages);

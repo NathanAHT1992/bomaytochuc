@@ -109,8 +109,9 @@
     },
     "hoang_nam": {
     "name": "Nguyễn Đình Hoàng Nam",
+    "dateofbirth": "29/02/1992",
     "position": "Trực Ban phó",
-    "specialty": "An toàn và chất lượng, Hệ thống, lịch mùa, slot, PCCC & CHCN",
+    "specialty": "An toàn và chất lượng, Hệ thống, lịch mùa, Slot, PCCC & CHCN",
     "education": "Đại học kinh tế - Đà Nẵng",
     "major": "Ngoại thương",
     "languages": "Tiếng Anh",
@@ -119,7 +120,8 @@
     "achievement":  "Nhân viên cốt lõi năm 2023, Nhân viên cốt lõi năm 2024, Nhân viên xuất sắc năm 2024",
     "record": "Luân chuyển đội điện tử năm 2023",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"Khai thác, Công nghệ, Xúc tiến thị trường"
+    "specialtyListp":"Khai thác, Công nghệ, Xúc tiến thị trường",
+    "skill":"Lập trình, Excel, Canva, power point"
     },
     "hai_duong": {
     "name": "Hoàng Hải Dương",
@@ -427,18 +429,19 @@
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":""
     },
-    "my_le": {
-    "name": "Phan Thị Mỹ Lệ",
-    "dateofbirth": "25/01/2001",
-    "position": "Nhân viên hỗ trợ hành khách",
-    "specialty": "Tiếng Anh",
-    "education": "Đại học Ngoại ngữ Đà Nẵng",
-    "major": "Tiếng Anh",
-    "languages": " Tiếng Anh ",
-    "achievement": "",
-    "record": "",
-    "contract": "Hợp đồng dài hạn",
-    "specialtyListp":""
+    "test": {
+    "name": "Tên nhân viên",
+    "dateofbirth": "DD/MM/YYYY",
+    "position": "VD: Nhân viên hỗ trợ hành khách",
+    "specialty": "Trực điều hành, Giám sát hoạt động khai thác, Hỗ trợ hành khách, ....",
+    "education": "Trường Đại học đã/ đang học",
+    "major": "Chuyên ngành đào tạo",
+    "languages": " Tiếng Anh, Tiếng Hàn, Tiếng Trung... ",
+    "achievement": "Số lượng thư khen, NVSX tháng (năm).., Sáng kiến..., các cuộc thi đạt giải...",
+    "record": "Đã từng luân chuyển Phòng../ ",
+    "contract": "Hợp đồng dài hạn/ Hợp đồng thời vụ",
+    "Skill":"Các điểm mạnh kỹ năng mềm (IT, Word, excel, Canva, power point, ngôn ngữ....",
+    "specialtyListp":"Chuyên môn bổ trợ khác"
     },
     "quynh_huong": {
     "name": "Nguyễn Phước Quỳnh Hương",
