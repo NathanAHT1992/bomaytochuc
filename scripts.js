@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
             callback(); // Nếu đã đăng nhập, mở popup ngay
         } else {
             const password = prompt("Nhập mật khẩu để xem thông tin:");
-            if (password === "123456") {
+            if (password === "Sonsonson@n1") {
                 localStorage.setItem("lastLogin", Date.now().toString()); // Lưu thời gian đăng nhập
                 callback(); // Gọi hàm mở popup
             } else {
