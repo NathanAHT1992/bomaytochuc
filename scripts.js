@@ -127,6 +127,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             formatList("popup-achievement", info.achievement);
                             formatList("popup-record", info.record);
                             formatList("popup-contract", info.contract);
+                            formatList("popup-skill", info.skill);
+                            formatList("popup-aspiration", info.aspiration);
   
                             showPopup();
                         }
