@@ -8,12 +8,12 @@
     "education": "Đại học Kinh tế và QTKD - ĐH Đà Nẵng",
     "major": "Kinh doanh ngoại thương",
     "languages": "Tiếng Anh",
-    "achievement": "",
+    "achievement": "Không",
     "record": "Luân chuyển PKT, Luân chuyển P.KHKD",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"Khai thác, Slot, PCCC & CNCH, Chăm sóc khách hàng, Đào tạo nội bộ",
-    "skill":"",
-    "aspiration":""
+    "skill":"Quản trị dự án, Quản trị con người, Quản trị rủi ro, Đối ngoại",
+    "aspiration":"Không"
     },
     "_comment":"PHÓ PHÒNG",
     "pham_doan_ky": {
@@ -24,12 +24,12 @@
     "education": "Đại học Đà Nẵng",
     "major": "Cử nhân Anh Văn",
     "languages": "Tiếng Anh, Tiếng Pháp",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Luân chuyển PKT",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"An toàn & chất lượng, Công nghệ, Xúc tiến thị trường, Phòng chống dịch bệnh",
-    "skill":"",
-    "aspiration":""
+    "skill":"Quản trị dự án",
+    "aspiration":"Không"
     },
     "duc_huy": {
     "name": "Võ Quang Đức Huy",
@@ -39,8 +39,8 @@
     "education": "Đại học Ngoại ngữ Đà Nẵng",
     "major": "Cử nhân Tiếng Anh",
     "languages": "Tiếng Anh",
-    "achievement": "Nhân viên xuất sắc tháng",
-    "record": "",
+    "achievement": "Nhân viên xuất sắc tháng 11.2024",
+    "record": "Luân chuyển PKT",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"Tổ chức, PCTT, Hỗ trợ hành khách, Hỗ trợ dịch vụ, Quản lý tài sản",
     "skill": "Excel, Power Point, Word",
@@ -54,10 +54,12 @@
     "education": "Đại học Tổng hợp Huế",
     "major": "Khoa học chuyên ngành Sinh học",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"An ninh, Kế hoạch ngân sách, KPI, Xây dựng & triển khai tiêu chuẩn dịch vụ"
+    "specialtyListp":"An ninh, Kế hoạch ngân sách, KPI, Xây dựng & triển khai tiêu chuẩn dịch vụ",
+    "skill": "Excel, Power Point, Word",
+    "aspiration": "Data Analyst"
     },
     "quynh_nhu": {
     "name": "Đỗ Thị Quỳnh Như",
@@ -67,8 +69,8 @@
     "education": "Đại học Ngoại ngữ Đà Nẵng, Đại học Duy Tân",
     "major": "Cử nhân tiếng Thái, Cử nhân Tài chính ngân hàng",
     "languages": "Tiếng Thái",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"Đối ngoại, Quản lý các dịch vụ nhằm nâng cao trải nghiệm hành khách, Tài liệu, Quy trình"
     },
@@ -83,11 +85,11 @@
     "major": "Quản Trị Kinh Doanh",
     "languages": "Tiếng Anh",
     "achievement": "nhân viên suất sắc tháng",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"Hỗ trợ dịch vụ, Quản lý các dịch vụ nhằm nâng cao trải nghiệm hành khách, Xây dựng & triển khai tiêu chuẩn dịch vụ, Đối ngoại",
-  "skill": "Word, Excel",
-    "aspiration":""
+    "skill": "Word, Excel",
+    "aspiration":"Không"
     },
     "thai_hoa": {
     "name": "Hà Phạm Thái Hòa",
@@ -98,11 +100,11 @@
     "major": "Cử nhân Quản lý",
     "languages": "Tiếng Anh",
     "achievement": "Nhân viên xuất sắc tháng 2/2024",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"Tổ chức, Kế hoạch ngân sách, Hỗ trợ hành khách, Đào tạo nội bộ",
     "skill": "Phục vụ hành khách, Giao tiếp, Microsoft Word, Powepoint, Excel",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "dac_bien": {
     "name": "Hồ Đắc Biên",
@@ -112,12 +114,12 @@
     "education": "Đại học Bách khoa Đà Nẵng",
     "major": "Công nghệ Thông tin",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"Hệ thống, lịch mùa, slot, An toàn, chất lượng, PCTT",
     "skill": "Data Analysis, AI, Quản lý dự án, Đào tạo, Thuyết trình, Giải quyết vấn đề, Lập kết hoạch, Đàm phán và thương lượng.",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "hoang_nam": {
     "name": "Nguyễn Đình Hoàng Nam",
@@ -129,11 +131,11 @@
     "languages": "Tiếng Anh",
     "experience": "07 năm kinh nghiệm hàng không, 01 năm kinh nghiệm quản lý",
     "strengths": "Lãnh đạo, đàm phán, công nghệ thông tin",
-    "achievement":  "Nhân viên cốt lõi năm 2023, Nhân viên cốt lõi năm 2024, Nhân viên xuất sắc năm 2024",
+    "achievement":  "Nhân viên cốt lõi năm 2023, Nhân viên cốt lõi năm 2024, Nhân viên xuất sắc năm 2024, Sáng kiến tháng 07/2023, Sáng kiến tháng 11/2023, Sáng kiến tháng 05/2024, Sáng kiến tháng 07/2024, Sáng kiến tháng 11/2024, Sáng kiến tháng 02.2025",
     "record": "Luân chuyển đội điện tử năm 2023",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"Khai thác, Công nghệ, Xúc tiến thị trường",
-    "skill":"Lập trình, Excel, Canva, power point"
+    "skill":"Lập trình IT, các phần mềm Microsoft, Canva, power point, Vận hành toàn bộ hệ Smart Terminal"
     },
     "hai_duong": {
     "name": "Hoàng Hải Dương",
@@ -144,12 +146,11 @@
     "major": "Kế toán",
     "languages": "Tiếng Anh",
     "achievement": "Sáng kiến tháng 01/2025, Sáng kiến tháng 02/2025",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp": "Quản lý tài sản, PCCC & CNCH, KPI, Tài liệu, Quy trình",
-    "skill": "Excel, Power point, Word, Canva, AMS, APV, Digital signage, Paging, Base, Bravo 8, ChatGPT, Toppion",
-    "aspiration":""
-    },
+    "skill": "Các phần mềm Microsoft, Canva, ChatGPT, Toppion",
+    "aspiration":"Không"    },
     "thanh_ai": {
     "name": "Đinh Thành Ái",
     "dateofbirth": "30/06/1978",
@@ -158,12 +159,12 @@
     "education": "Đại học Kinh tế TP Hồ Chí Minh ",
     "major": "Cử nhân Kinh tế",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"Bổ trợ",
     "skill": "Word, Excel",
-    "aspiration":""
+    "aspiration":"Không"
     },
     
     "_comment":"TRỰC ĐIỀU HÀNH",
@@ -176,10 +177,10 @@
     "major": "Quản trị Kinh doanh và Tài chính Kế toán",
     "languages": "Tiếng Anh",
     "achievement": "Nhân viên xuất sắc tháng 12/2023, Nhân viên xuất sắc tháng 10/2024, Nhân viên xuất sắc tháng 02/2025, Ielts 7.5 ",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
-"skill": "PowerPoint, Canva",
+    "specialtyListp":"Không",
+    "skill": "PowerPoint, Canva",
     "aspiration": "Tìm hiểu và học về cách thức quản lý mảng khai thác, cảnh quan, tiện ích tại các sân bay quốc tế"
     },
     "ngoc_phap": {
@@ -191,10 +192,10 @@
     "major": "Ngôn ngữ Pháp",
     "languages": "Tiếng Pháp",
     "achievement": "Nhân viên xuất sắc tháng 7/2023",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
-  "skill":"Excel, Powerpoint, Word, Canva, GG sheet",
+    "specialtyListp":"Không",
+    "skill":"Excel, Powerpoint, Word, Canva, GG sheet",
     "aspiration":"Phấn đấu trở thành quản lý cấp trung, muốn học thêm về Data Analyst"
     },
     "quang_minh": {
@@ -208,9 +209,9 @@
     "achievement": "Nhân viên xuất sắc tháng..",
     "record": "Luân chuyển PKT, Luân chuyển P.KHKD",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Excel, Powerpoint, Word",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "phuong_khanh": {
     "name": "Nguyễn Ngọc Phương Khanh",
@@ -220,12 +221,12 @@
     "education": "ĐH Kinh Tế Đà Nẵng",
     "major": "Tài Chính Doanh Nghiệp",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Excel, Word, Powerpoint",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "phuong_chau": {
     "name": "Võ Nguyễn Phương Châu",
@@ -236,11 +237,11 @@
     "major": "Hàng không",
     "languages": "Tiếng Anh",
     "achievement": "Sáng kiến tháng 8/2024 ",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill":"Word, Powerpoint, Canva",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "thanh_chuong": {
     "name": "Trần Hoàng Thanh Chương",
@@ -251,10 +252,10 @@
     "major": "Quản trị kinh doanh Tổng quát",
     "languages": "Tiếng Anh",
     "achievement": "Nhân viên xuất sắc tháng 11/2024",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
-  "skill": "Word, Power Point",
+    "specialtyListp":"Không",
+    "skill": "Word, Power Point",
     "aspiration": "Muốn tìm hiểu và học về mảng lịch bay mùa"
     },
     "minh_tuan": {
@@ -262,13 +263,13 @@
     "dateofbirth": "29/11/1995",
     "position": "Chuyên viên điều hành",
     "specialty": "Trực điều hành, Am hiểu hệ IT",
-    "education": "",
-    "major": "",
+    "education": "Không",
+    "major": "Không",
     "languages": "Tiếng Anh",
     "achievement": "Nhân viên xuất sắc tháng 3/2024",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Tin học văn phòng, Lập trình html, SQL cơ bản, UML diagram, Kỹ năng BA",
     "aspiration": "Muốn phát triển thêm mảng data analyst"
     },
@@ -282,12 +283,12 @@
     "education": "Trung cấp - Học viện Hàng không Việt Nam",
     "major": "Vận tải hàng không",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
   "skill": "Word, Excel, Powerpoint",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "bich_thuy": {
     "name": "Nguyễn Thị Bích Thủy",
@@ -298,24 +299,24 @@
     "major": "Anh Văn",
     "languages": "Tiếng Anh",
     "achievement": "Nhân viên xuất sắc tháng 5/2024, Thư khen tháng 2/2025",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Word, Powerpoint, Excel",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "dai_trang": {
     "name": "Nguyễn Thị Đài Trang",
-    "dateofbirth": "",
+    "dateofbirth": "Không",
     "position": "Chuyên viên giám sát",
     "specialty": "Giám sát hoạt động khai thác",
-    "education": "",
-    "major": "",
+    "education": "Không",
+    "major": "Không",
     "languages": "Tiếng Anh, Tiếng Hàn, Tiếng Nhật",
     "achievement": "02 thư khen của hành khách, nhân viên xuất sắc tháng 2.2024",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Excel, Powerpoint, Word, Canva",
     "aspiration": "Muốn được giao nhiều task công việc, bất cứ mảng gì"
     },
@@ -327,10 +328,10 @@
     "education": "Đại học Ngoại ngữ Đà Nẵng",
     "major": "Quốc tế học",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Word, Excel, Powerpoint cơ bản",
     "aspiration": "Hiện tại thì chưa nhưng trong tương lai muốn học việc, thử sức tại phòng TTĐN vị trí đối ngoại/quan hệ công chúng"
     },
@@ -343,9 +344,9 @@
     "major": "Ngôn Ngữ Anh",
     "languages": "Tiếng Anh",
     "achievement": "Thư khen tháng 11/2023, 01/2024, 08/2024, Câu chuyện truyền cảm hứng tháng 11/2024, Nhân viên xuất sắc tháng 12/2024",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill":"Word, Excel, Powerpoint",
     "aspiration": "Mong muốn được thử sức ở vị trí trực điều hành"
     },
@@ -358,9 +359,9 @@
     "major": "Tiếng anh",
     "languages": "Tiếng Anh",
     "achievement": "Nhân viên xuất sắc tháng 6 năm 2024",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Word,Excel,Powerpoint",
     "aspiration": "Mong muốn được học hỏi thêm về hệ thống quản lý chất lượng ISO"
     },
@@ -372,10 +373,10 @@
     "education": "Đại học Kinh tế Đà Nẵng",
     "major": "Ngoại thương",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Power point, Canvas",
     "aspiration": "Muốn học thêm về hệ thống điều hành nhà ga"
     },
@@ -388,11 +389,11 @@
     "major": "Quản trị Dịch vụ du lịch & lữ hành",
     "languages": "Tiếng Anh",
     "achievement": "Thư khen tháng 10/2024",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Excel, Word",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "van_trang": {
     "name": "Thái Vân Trang",
@@ -402,10 +403,10 @@
     "education": "Đại học Ngoại Ngữ Đà Nẵng",
     "major": "Cử nhân Tiếng Anh",
     "languages": "Tiếng Anh, Tiếng Hàn cơ bản",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "MS Office",
     "aspiration": "Mong muốn được tham gia thêm nhiều lớp đào tạo để nâng cao chuyên môn cũng như kỹ năng mềm do công ty tổ chức"
     },
@@ -416,11 +417,11 @@
     "specialty": "Giám sát hoạt động khai thác",
     "education": "Đại Học Mở Hà Nội",
     "major": "Quản Trị Kinh Doanh",
-    "languages": "",
+    "languages": "Không",
     "achievement": "Góp ý việc bỏ xuống sớm các khay đựng hành lý để giúp giảm thời gian làm việc của băng truyền trả hành lý (các Belt). Yêu cầu các đơn vị pvmd giải tỏa nhanh các khay đựng hành lý tại khu vực các belt để khách có các bức ảnh đẹp với tường cây Welcome to Da nang ",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Giao tiếp, Word, Excel ",
     "aspiration": "Luôn nỗ lực học hỏi để làm tốt ở mọi vị trí."
     },
@@ -434,10 +435,10 @@
     "education": "Đại học Đông Á Đà Nẵng",
     "major": "Ngôn ngữ Hàn Quốc",
     "languages": " Tiếng Hàn ",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
   "skill": "Word",
     "aspiration": "Học khóa học sử dụng hệ thống máy AED"
     },
@@ -449,12 +450,12 @@
     "education": "Đại học Đông Á Đà Nẵng",
     "major": "Ngôn ngữ Hàn Quốc",
     "languages": " Tiếng Hàn, Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Canva, Word",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "trieu": {
     "name": "Y Triều Niê Hra",
@@ -464,12 +465,12 @@
     "education": "Đại học Đông Á Đà Nẵng",
     "major": "Ngôn ngữ Anh",
     "languages": " Tiếng Anh ",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Excel, Word, Powerpoint",
-    "aspiration":""
+    "aspiration":"Không"
     },
     
     "_comment":"NHÂN VIÊN HỖ TRỢ HÀNH KHÁCH",
@@ -478,12 +479,12 @@
     "dateofbirth": "27/10/1995",
     "position": "Nhân viên Hỗ trợ hành khách",
     "specialty": "Tiếng Anh, Tiếng Hàn",
-    "education": "",
-    "major": "",
+    "education": "Không",
+    "major": "Không",
     "languages": " Tiếng Anh ",
-    "achievement": "",
+    "achievement": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
   "skill": "Excel, Powerpoint, Word",
     "aspiration": "Muốn đề xuất thử sức tại vị trí giám sát"
     },
@@ -509,12 +510,12 @@
     "education": "Đại học Duy Tân",
     "major": "Quản trị Dịch vụ Du Lịch & Lữ hành",
     "languages": " Tiếng Anh ",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
   "skill": "Excel, Powerpoint, Word",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "kim_ngan": {
     "name": "Hoàng Thị Kim Ngân",
@@ -524,10 +525,10 @@
     "education": "Đại học Thương Mại",
     "major": "Đại học Thương Mại",
     "languages": " Tiếng Anh ",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Excel, PowerPoint, Word",
     "aspiration": "Muốn tìm hiểu và thử sức ở vị trí giám sát"
     },
@@ -539,12 +540,12 @@
     "education": "Đại học Quốc gia Hà Nội",
     "major": "Luật",
     "languages": " Tiếng Anh ",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Word, Excel, Power Point, Canva",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "kim_dung": {
     "name": "Hồ Thị Kim Dung",
@@ -553,11 +554,11 @@
     "specialty": "Tiếng Anh",
     "education": " Đại học Ngoại Ngữ Đà Nẵng ",
     "major": "Luật học",
-    "languages": "",
+    "languages": "Không",
     "achievement": "Thư khen năm 2024, nhân viên xuất sắc tháng 9/2024",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Kỹ năng tận tâm chăm sóc khách hàng, Kỹ năng giải quyết vấn đề, Powerpoint, Word",
     "aspiration": "Trong tương lai, em muốn làm tại vị trí Giam sát, có cơ hội tìm hiểu về quản trị hàng không. Mong muốn đề xuất thử sức tại vị trí ngoài phòng ĐH-muốn thử sức sáng tạo tại P. TTĐN"
     },
@@ -569,10 +570,10 @@
     "education": "Đại học Ngoại ngữ Đà Nẵng",
     "major": "Đông phương học",
     "languages": " Tiếng Anh ",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
   "skill": "Excel, Word",
     "aspiration": "Muốn tìm hiểu và học việc ở vị trí Trực Điều Hành"
     },
@@ -585,10 +586,10 @@
     "education": "Đại học Ngoại ngữ Đà Nẵng",
     "major": "Tiếng Trung du lịch",
     "languages": "Tiếng Trung, Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Word, Power point, Canva",
     "aspiration": "Mong muốn được đào tạo thêm tiếng Hàn"
     },
@@ -601,11 +602,11 @@
     "major": "Tiếng Anh",
     "languages": "Tiếng Anh",
     "achievement": "Thư khen tháng",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Kỹ năng giao tiếp",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "tuong_vinh": {
     "name": "Lê Công Tường Vĩnh",
@@ -616,9 +617,9 @@
     "major": "Quốc tế học",
     "languages": "Tiếng Anh, Tiếng Trung",
     "achievement": "Thư khen tháng 05/2024",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill":"Powerpoint, Word, Customer service",
     "aspiration": "Muốn tìm hiểu và học thêm về mảng an ninh an toàn và chất lượng trong ngành hàng không"
     },
@@ -630,10 +631,10 @@
     "education": "Đại học Đông Á Đà Nẵng",
     "major": "Ngôn ngữ Hàn Quốc ",
     "languages": "Tiếng Hàn",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":""
+    "specialtyListp":"Không"
     },
     "tien_doan": {
     "name": "Đỗ Tiến Đoàn",
@@ -643,10 +644,10 @@
     "education": "Đại học Đông Á Đà Nẵng",
     "major": "Ngôn ngữ và văn hóa Trung Quốc",
     "languages": "Tiếng Trung",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
 "skill": "Excel, Powerpoint, Word",
     "aspiration":"..."
     },
@@ -658,12 +659,12 @@
     "education": "Đại học Duy Tân Đà Nẵng ",
     "major": "Kế toán",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill":"MS Office",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "ngan_ha": {
     "name": "Đoàn Thị Ngân Hà",
@@ -673,12 +674,12 @@
     "education": "Đại học Ngoại ngữ Đà Nẵng",
     "major": "Tiếng Trung",
     "languages": "Tiếng Trung",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
 "skill": "Powerpoint, Word",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "minh_phuong": {
     "name": "Trần Minh Phương",
@@ -689,11 +690,11 @@
     "major": "Ngôn ngữ và văn hóa Hàn Quốc",
     "languages": "Tiếng Hàn, Tiếng Anh",
     "achievement": "Thư khen tháng",
-    "record": "",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Word, Powerpoint",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "quoc_phuong": {
     "name": "Võ Quốc Phương",
@@ -703,12 +704,12 @@
     "education": "Đại học Đông Á Đà Nẵng",
     "major": "Ngôn ngữ Anh",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Powerpoint",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "tu_uyen": {
     "name": "Văn Phạm Tú Uyên",
@@ -718,12 +719,12 @@
     "education": "Đại học Ngoại ngữ Đà Nẵng",
     "major": "Ngôn ngữ Anh",
     "languages": "Tiếng Anh, Tiếng Trung",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Word",
-    "aspiration":""
+    "aspiration":"Không"
     },
     "mini": {
     "name": "Lê Thị Mini",
@@ -733,10 +734,10 @@
     "education": "Đại học Ngoại ngữ Đà Nẵng",
     "major": "Ngôn ngữ Anh",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill":"Power point, Word, Excel, Chụp và chỉnh sửa hình ảnh",
     "aspiration": "Muốn tham gia khóa đào tạo sử dụng máy AED, tham gia thêm các khóa học PCCC, và các khóa đào tạo khác nếu có. "
     },
@@ -748,10 +749,10 @@
     "education": "Cao đẳng - Học viện Hàng không Việt Nam",
     "major": "Kiểm Soát Không Lưu",
     "languages": "Tiếng Anh",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":""
+    "specialtyListp":"Không"
     },
     "thu_ngan": {
     "name": "Nguyễn Thị Thu Ngân",
@@ -761,10 +762,10 @@
     "education": "Đại Học Ngoại Ngữ",
     "major": "Ngôn Ngữ Anh Thương Mại",
     "languages": "Tiếng Anh, Tiếng Thái, Tiếng Tây Ban Nha",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
     "skill": "Excel, Word, Powerpoint",
     "aspiration": "Muốn tìm hiểu và học hỏi nhiều hơn về mảng dịch vụ khách hàng"
     },
@@ -776,12 +777,12 @@
     "education": "Đại Học Kinh Tế Đà Nẵng",
     "major": "Ngoại Thương",
     "languages": "Tiếng Hàn",
-    "achievement": "",
-    "record": "",
+    "achievement": "Không",
+    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"",
+    "specialtyListp":"Không",
 "skill": "Excel, Powerpoint, Word",
-    "aspiration":""
+    "aspiration":"Không"
     }
     
 }   
