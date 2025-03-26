@@ -11,7 +11,9 @@
     "achievement": "",
     "record": "Luân chuyển PKT, Luân chuyển P.KHKD",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"Khai thác, Slot, PCCC & CNCH, Chăm sóc khách hàng, Đào tạo nội bộ"
+    "specialtyListp":"Khai thác, Slot, PCCC & CNCH, Chăm sóc khách hàng, Đào tạo nội bộ",
+    "skill":"...",
+    "hope":"..."
     },
     "_comment":"PHÓ PHÒNG",
     "pham_doan_ky": {
@@ -25,7 +27,9 @@
     "achievement": "",
     "record": "",
     "contract": "Hợp đồng dài hạn",
-    "specialtyListp":"An toàn & chất lượng, Công nghệ, Xúc tiến thị trường, Phòng chống dịch bệnh"
+    "specialtyListp":"An toàn & chất lượng, Công nghệ, Xúc tiến thị trường, Phòng chống dịch bệnh",
+    "skill":"..",
+    "hope":".."
     },
     "duc_huy": {
     "name": "Võ Quang Đức Huy",
