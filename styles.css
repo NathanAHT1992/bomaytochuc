@@ -146,14 +146,14 @@ button:hover {
 
 /* Định dạng đường kẻ */
 .line-vertical {
-  width: 2px;
+  width: 3px;
   height: 40px;
   background-color: hsl(0, 0%, 0%);
   position: static;
 
 }
 .line-vertical1 {
-  width: 2px;
+  width: 3px;
   height: 310px;
   background-color: #000000;
   position: static;
@@ -161,7 +161,7 @@ button:hover {
 
 .line-horizontal {
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: #000000;
   margin: auto;
   position: relative;
@@ -194,7 +194,7 @@ button:hover {
 }
 .line-container-horizontal2 {
   display: flex;
-  width: 193px;
+  width: 385px;
   position: relative;
 }
 .image {

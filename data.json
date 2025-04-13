@@ -16,7 +16,7 @@
     "aspiration":"Không"
     },
     "_comment":"PHÓ PHÒNG",
-    "pham_doan_ky": {
+    "pho_phong": {
     "name": "Phạm Doãn Kỳ",
     "dateofbirth": "28/02/1973",
     "position": "Phó phòng",
@@ -426,6 +426,21 @@
     "skill": "Giao tiếp, Word, Excel ",
     "aspiration": "Luôn nỗ lực học hỏi để làm tốt ở mọi vị trí."
     },
+    "ngoc_cuong": {
+      "name": "Lê Ngọc Cường",
+      "dateofbirth": "22/11/1977",
+      "position": "Chuyên viên giám sát",
+      "specialty": "Giám sát hoạt động khai thác",
+      "education": "Đại Học Mở Hà Nội",
+      "major": "Quản Trị Kinh Doanh",
+      "languages": "Không",
+      "achievement": "Góp ý việc bỏ xuống sớm các khay đựng hành lý để giúp giảm thời gian làm việc của băng truyền trả hành lý (các Belt). Yêu cầu các đơn vị pvmd giải tỏa nhanh các khay đựng hành lý tại khu vực các belt để khách có các bức ảnh đẹp với tường cây Welcome to Da nang ",
+      "record": "Không",
+      "contract": "Hợp đồng dài hạn",
+      "specialtyListp":"Không",
+      "skill": "Giao tiếp, Word, Excel ",
+      "aspiration": "Luôn nỗ lực học hỏi để làm tốt ở mọi vị trí."
+      },
     
     "_comment":"NHÂN VIÊN DỊCH VỤ HÀNH KHÁCH",
     "huong_2": {
@@ -486,7 +501,7 @@
     "achievement": "Không",
     "contract": "Hợp đồng dài hạn",
     "specialtyListp":"Không",
-  "skill": "Excel, Powerpoint, Word",
+    "skill": "Excel, Powerpoint, Word",
     "aspiration": "Muốn đề xuất thử sức tại vị trí giám sát"
     },
     "test": {
@@ -594,20 +609,20 @@
     "skill": "Word, Power point, Canva",
     "aspiration": "Mong muốn được đào tạo thêm tiếng Hàn"
     },
-    "le_chi": {
-    "name": "Hoàng Lệ Chi",
-    "dateofbirth": "09/05/2002",
+    "ly_na": {
+    "name": "Nguyễn Thị Ly Na",
+    "dateofbirth": "17/09/2003",
     "position": "Nhân viên hỗ trợ hành khách",
-    "specialty": "Tiếng Anh",
-    "education": "Đại học Ngoại ngữ Đà Nẵng",
-    "major": "Tiếng Anh",
+    "specialty": "Kinh doanh quốc tế",
+    "education": "Trường Đại học Kinh tế - ĐHĐN",
+    "major": "Tiếng Anh, Tiếng Hàn",
     "languages": "Tiếng Anh",
     "achievement": "Thư khen tháng",
     "record": "Không",
     "contract": "Hợp đồng thời vụ",
     "specialtyListp":"Không",
-    "skill": "Kỹ năng giao tiếp",
-    "aspiration":"Không"
+    "skill": "Word, Excel, Power point, Canvas",
+    "aspiration":"Dạ em mong muốn có thể được trực ở quầy self-check in nhiều hơn để thành thạo công việc ạ. Vì hiện tại kĩ năng về mặt lí thuyết em đã nắm nhưng chưa được va chạm thực tế ở mảng này ạ ( đặc biệt là hãng Starlux ạ). Em cảm ơn ạ."
     },
     "tuong_vinh": {
     "name": "Lê Công Tường Vĩnh",
@@ -649,7 +664,7 @@
     "record": "Không",
     "contract": "Hợp đồng thời vụ",
     "specialtyListp":"Không",
-"skill": "Excel, Powerpoint, Word",
+    "skill": "Excel, Powerpoint, Word",
     "aspiration":"..."
     },
     "phuong_linh": {
@@ -742,18 +757,19 @@
     "skill":"Power point, Word, Excel, Chụp và chỉnh sửa hình ảnh",
     "aspiration": "Muốn tham gia khóa đào tạo sử dụng máy AED, tham gia thêm các khóa học PCCC, và các khóa đào tạo khác nếu có. "
     },
-    "thao_nguyen": {
-    "name": "Nguyễn Trần Thảo Nguyên",
-    "dateofbirth": "22/03/2003",
+    "tu_uyen1": {
+    "name": "Lê Tú Uyên",
+    "dateofbirth": "24/06/2003",
     "position": "Nhân viên hỗ trợ hành khách",
     "specialty": "Tiếng Anh",
-    "education": "Cao đẳng - Học viện Hàng không Việt Nam",
-    "major": "Kiểm Soát Không Lưu",
+    "education": "Trường Đại học Ngoại ngữ - ĐHĐN",
+    "major": "Ngôn ngữ Anh - Tiếng Anh Thương mại",
     "languages": "Tiếng Anh",
     "achievement": "Không",
-    "record": "Không",
     "contract": "Hợp đồng thời vụ",
-    "specialtyListp":"Không"
+    "specialtyListp":"Không",
+    "skill":"Word, Excel, Powerpoint",
+    "aspiration":"Muốn được thử sức ở vị trí HTHK CC và làm ở vị trí Info ANSC để nắm rõ vị trí trong khu cách ly"
     },
     "thu_ngan": {
     "name": "Nguyễn Thị Thu Ngân",
@@ -770,6 +786,51 @@
     "skill": "Excel, Word, Powerpoint",
     "aspiration": "Muốn tìm hiểu và học hỏi nhiều hơn về mảng dịch vụ khách hàng"
     },
+    "thu_thao": {
+      "name": "Trương Nguyễn Thu Thảo",
+      "dateofbirth": "15/01/2004",
+      "position": "Nhân viên hỗ trợ hành khách",
+      "specialty": "Tiếng Anh, Tiếng Pháp",
+      "education": "Đại Học Ngoại Ngữ",
+      "major": "Tiếng Pháp truyền thông sự kiện",
+      "languages": "Tiếng Anh, Tiếng Pháp",
+      "achievement": "Không",
+      "record": "Không",
+      "contract": "Hợp đồng thời vụ",
+      "specialtyListp":"Không",
+      "skill": "Excel, Word, Powerpoint",
+      "aspiration": "không"
+      },
+      "tra_giang": {
+        "name": "Nguyễn Thị Trà Giang",
+        "dateofbirth": "15/01/2004",
+        "position": "Nhân viên hỗ trợ hành khách",
+        "specialty": "Tiếng Anh, Tiếng Trung",
+        "education": "Đại học Đông Á",
+        "major": "Ngôn ngữ và văn hoá Trung Quốc chuyên ngành Thư ký - Trợ lý",
+        "languages": "Tiếng Anh, Tiếng Trung",
+        "achievement": "Không",
+        "record": "Không",
+        "contract": "Hợp đồng thời vụ",
+        "specialtyListp":"Không",
+        "skill": "Excel, Word, Powerpoint",
+        "aspiration": "không"
+        },
+        "khanh_linh2": {
+          "name": "Phùng Lê Khánh Linh",
+          "dateofbirth": "23/08/2003",
+          "position": "Nhân viên hỗ trợ hành khách",
+          "specialty": "",
+          "education": "Đại học Greenwich VietNam",
+          "major": "Quản trị kinh doanh",
+          "languages": "Tiếng Anh",
+          "achievement": "Không",
+          "record": "Không",
+          "contract": "Hợp đồng thời vụ",
+          "specialtyListp":"Không",
+          "skill": "Excel, Word, Powerpoint",
+          "aspiration": "Mong muốn được học hỏi thêm nhiều kiến thức mới, được trở thành nhân viên chính thức và tiếp tục đóng góp lâu dài cho công ty "
+          },
     "ly_na": {
     "name": "Nguyễn Thị Ly Na",
     "dateofbirth": "17/09/2003",
@@ -777,12 +838,12 @@
     "specialty": "Tiếng Anh",
     "education": "Đại Học Kinh Tế Đà Nẵng",
     "major": "Ngoại Thương",
-    "languages": "Tiếng Hàn",
+    "languages": "Tiếng Hàn, Tiếng Anh",
     "achievement": "Không",
     "record": "Không",
     "contract": "Hợp đồng thời vụ",
     "specialtyListp":"Không",
-"skill": "Excel, Powerpoint, Word",
+    "skill": "Excel, Powerpoint, Word",
     "aspiration":"Không"
     }
     
