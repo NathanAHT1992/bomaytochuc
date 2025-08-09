@@ -158,7 +158,13 @@ button:hover {
   background-color: #000000;
   position: static;
 }
+.line-vertical4 {
+  width: 3px;
+  height: 80px;
+  background-color: hsl(0, 0%, 0%);
+  position: static;
 
+}
 .line-horizontal {
   width: 100%;
   height: 3px;
@@ -186,7 +192,14 @@ button:hover {
 }
 
 .line-horizontal2 {
-  width: 100%;
+  width: 67.5%;
+  height: 2px;
+  background-color: #000000;
+  margin: 0 auto;
+  position: relative;
+}
+.line-horizontal3 {
+  width: 50%;
   height: 2px;
   background-color: #000000;
   margin: 0 auto;
